@@ -34,3 +34,11 @@ Date, Property, Amount, User
 Date, User, Comment
 **Payments:**
 Amount, Propert, Payment method
+
+# Feature Breakdown
+**User Management:** Secure system for user registration, authentication, and profile management.
+**Property Management:** Features for property listing creation, updates, and retrieval.
+**Booking System:** Create a booking mechanism for users to reserve properties and manage booking details.
+**Payment Processing:** Payment system to handle transactions and record payment details.
+**Review System:** Allow users to leave reviews and ratings for properties.
+**Data Optimization:** Ensure efficient data retrieval and storage through database optimizations.
