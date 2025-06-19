@@ -22,3 +22,15 @@ Ensures the backend functionalities are thoroughly tested and meet quality stand
 **Redis:** Used for caching and session management.
 **Docker:** Containerization tool for consistent development and deployment environments.
 **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+
+# Database Design
+**Users:**
+Name, Properties, Property, Location
+**Properties:**
+Locationc, Cost, Assistant
+**Bookings:**
+Date, Property, Amount, User
+**Reviews:**
+Date, User, Comment
+**Payments:**
+Amount, Propert, Payment method
