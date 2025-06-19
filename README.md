@@ -42,3 +42,34 @@ Amount, Propert, Payment method
 **Payment Processing:** Payment system to handle transactions and record payment details.
 **Review System:** Allow users to leave reviews and ratings for properties.
 **Data Optimization:** Ensure efficient data retrieval and storage through database optimizations.
+
+# API Security
+**Authentication**
+Measure: Use secure, token-based authentication (e.g., JWT, OAuth 2.0) to verify the identity of users or systems accessing the API.
+Importance:
+User Data Protection: Prevents unauthorized access to personal and sensitive user information.
+Account Integrity: Ensures only legitimate users can access their own data and services.
+
+**Authorization**
+Measure: Implement role-based access control (RBAC) or attribute-based access control (ABAC) to enforce fine-grained permissions.
+Importance:
+Business Logic Enforcement: Ensures users can only perform actions allowed by their role (e.g., admin vs. customer).
+Data Security: Prevents users from accessing or modifying data they do not own or manage.
+
+**Rate Limiting and Throttling**
+Measure: Set request limits per user or IP using tools like Redis-backed rate limiters.
+Importance:
+Service Stability: Prevents abuse through excessive or automated requests (DDoS protection).
+Resource Optimization: Preserves system performance for all users.
+
+**Input Validation and Sanitization**
+Measure: Validate all input data and sanitize to prevent injection attacks (e.g., SQL, XSS).
+Importance:
+Database Protection: Blocks malicious data from compromising the backend.
+System Integrity: Prevents users from injecting scripts or commands that could harm the server.
+
+**HTTPS and Data Encryption**
+Measure: Enforce HTTPS and encrypt data at rest and in transit using SSL/TLS and AES.
+Importance:
+Privacy: Protects data from being intercepted during communication.
+Compliance: Meets legal and regulatory requirements (e.g., GDPR, HIPAA).
