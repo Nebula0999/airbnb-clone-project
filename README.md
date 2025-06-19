@@ -79,12 +79,14 @@ Compliance: Meets legal and regulatory requirements (e.g., GDPR, HIPAA).
 CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. A CI/CD pipeline is an automated process that helps developers build, test, and deploy code changes more efficiently and reliably.
 **Continuous Integration (CI):** Automatically integrates and tests code changes as they are pushed to the repository.
 **Continuous Deployment/Delivery (CD):** Automatically deploys tested code to staging or production environments.
+
 **Importance**
 Faster Development Cycle: Automates repetitive tasks like testing and deployment, speeding up the release of new features.
 Improved Code Quality: Automatically runs tests and checks, catching bugs early before they reach production.
 Consistent Deployments: Ensures code is deployed in a repeatable and reliable manner, reducing human error.
 Team Collaboration: Allows multiple developers to work on a project simultaneously without breaking the main codebase.
 Customer Satisfaction: Enables quicker updates and bug fixes, improving user experience and trust.
+
 **Tools**
 GitHub Actions: Automates CI/CD workflows directly within GitHub repositories.
 Docker: Packages applications and dependencies into containers for consistent environments from development to production.
